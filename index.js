@@ -121,7 +121,6 @@ else if (season === 'autumn') {
                         <i class="fa-solid fa-cannabis"></i>
                         <i class="fa-solid fa-cannabis"></i>
                         <i class="fa-solid fa-cannabis"></i>
-                        
                     </span>
                     <span class="reviews-count">(112)</span>
                 </div>
@@ -133,8 +132,8 @@ else if (season === 'autumn') {
             </div>
         </div>`;
 }
-else{
+else {
+    parent.className = "products-grid not-found";
     parent.innerHTML = `
         <img src="seasonnotfound.png" id="bg-img" alt="bg image">`;
 }
-
