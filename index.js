@@ -5,6 +5,7 @@ let season = prompt(`Which season do you prefer?
   winter
   autumn
   spring
+  rainy
   `)?.toLowerCase();
 
 if (season === 'winter') {
@@ -128,6 +129,37 @@ else if (season === 'autumn') {
                 <div class="footer">
                     <span class="temp">31°C</span>
                     <button class="add-to-cart-btn">Embrace Autumn</button>
+                </div>
+            </div>
+        </div>`;
+}
+else if (season === 'rainy') {
+    parent.className = "products-grid rainy";
+    parent.innerHTML = `
+        <img src="https://i.pinimg.com/originals/8b/ae/c4/8baec4b5064b6bed0b106fbf038ac841.gif" id="bg-img" alt="bg image">
+        
+        <div class="product-card">
+            <div class="image-wrapper">
+                <span class="badge">Wet</span>
+                <img class="product-image" src="https://img.magnific.com/free-vector/defend-defense-against-trouble-concept-brunet-young-woman-cloudy-sky-girl-umbrella-rainy-weather-outside-warm-sunny-inside-flat-style-illustration-blue-dark-background_126523-2338.jpg?semt=ais_hybrid&w=740&q=80" alt="Summer Scene">
+            </div>
+            <div class="content">
+                <p class="category">Rainy</p>
+                <h2 class="title">Quiet Rainy Moments</h2>
+                
+                <div class="rating">
+                    <span class="stars">
+                        <i class="fa-solid fa-droplet"></i>
+                        <i class="fa-solid fa-droplet"></i>
+                        <i class="fa-solid fa-droplet"></i>
+                        <i class="fa-solid fa-droplet"></i>
+                    </span>
+                    <span class="reviews-count">(109)</span>
+                </div>
+                
+                <div class="footer">
+                    <span class="temp">30°C</span>
+                    <button class="add-to-cart-btn">Embrace Rain</button>
                 </div>
             </div>
         </div>`;

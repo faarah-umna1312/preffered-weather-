@@ -132,6 +132,9 @@ body {
 .spring .badge {
     background: rgba(238, 86, 218, 0.144);
 }
+.rainy .badge {
+    background: rgba(204, 217, 245, 0.144);
+}
 
 .content {
     padding: 24px;
@@ -204,6 +207,9 @@ body {
 }
 .spring .stars {
     color: #8cf350;
+}
+.rainy .stars {
+    color: #365f94;
 }
 
 .reviews-count {
@@ -279,6 +285,9 @@ body {
 .spring .add-to-cart-btn::before {
     background: #ee77d0;
 }
+.rainy .add-to-cart-btn::before {
+    background: #21306ec0;
+}
 
 .add-to-cart-btn:hover::before {
     width: 100%;
@@ -289,13 +298,16 @@ body {
 }
 
 .summer .add-to-cart-btn:hover {
-    box-shadow: 0 8px 16px rgba(255, 69, 0, 0.25);
+    box-shadow: 0 8px 16px rgba(240, 182, 76, 0.25);
 }
 .autumn .add-to-cart-btn:hover {
     box-shadow: 0 8px 16px rgba(156, 61, 27, 0.25);
 }
 .spring .add-to-cart-btn:hover {
     box-shadow: 0 8px 16px rgba(247, 106, 211, 0.25);
+}
+.rainy .add-to-cart-btn:hover {
+    box-shadow: 0 8px 16px rgba(119, 109, 209, 0.25);
 }
 
 .add-to-cart-btn:active {
